@@ -25082,6 +25082,32 @@ textarea {
     text-align: center;
   }
 }
+
+.header-title a {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 48px;
+  margin-right: 0.5rem;
+}
+@media (max-width: 400px) {
+  .logo {
+    width: 30px;
+  }
+  .header-title span {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 320px) {
+  .logo {
+    width: 26px;
+  }
+  .header-title span {
+    font-size: 0.8rem;
+  }
+}
+
 .mobile-navbar {
   max-width: fit-content;
 }
