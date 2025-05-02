@@ -6098,7 +6098,7 @@ input[type=button].btn-block {
   border-radius: 0.25rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .breadcrumb {
     margin-top: 0.8rem;
   }
