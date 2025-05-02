@@ -1,12 +1,15 @@
-# Argon Dokuwiki Template
-
-_This template is unmaintained. Consider using a more maintained fork like [dokuwiki-krypton](https://github.com/fablab-luenen/dokuwiki-krypton), [UmanIT-Argon-Dokuwiki-Template](https://github.com/umanit/UmanIT-Argon-Dokuwiki-Template), [eduardomozart's fork](https://github.com/eduardomozart/Argon-Dokuwiki-Template/tree/patch-4), [SimpleDoku](https://github.com/kalenpw/SimpleDoku), [jacksitlab's fork](https://github.com/jacksitlab/Argon-Dokuwiki-Template/tree/v1.3-patch), [Destwin-Dokuwiki-Template](https://github.com/evanmeier/Destwin-Dokuwiki-Template), or [others](https://github.com/IceWreck/Argon-Dokuwiki-Template/network)._
-
+# Argon Dokuwiki Template (fork for halgebra)
 
 Argon - a clean, responsive, modern template for Dokuwiki.
 https://www.dokuwiki.org/template:argon
 
-![Screenshot](screenshots/1.png)
+![Screenshot](screenshots/c1.png)
+
+## Changes
+
+See [TODO](./TODO.md)
+
+![Screenshot](screenshots/c2.png)
 
 ## Sidebar
 
@@ -26,6 +29,7 @@ sass --watch assets/css/doku.scss assets/css/doku.css
 - [IceWreck](https://github.com/IceWreck)
 - [SoarinFerret](https://github.com/SoarinFerret)
 - [llune](https://github.com/llune)
+- [Mikhail Kucherenko](https://github.com/SnipGhost)
 
 ## Credits
 * Creative Tim for the [Argon Design System](https://github.com/creativetimofficial/argon-design-system) stylesheet. 
@@ -33,6 +37,8 @@ sass --watch assets/css/doku.scss assets/css/doku.css
 
 ## More Screenshots
 
+Original Argon Template:
+![Screenshot](screenshots/1.png)
 ![Screenshot](screenshots/2.png)
 ![Screenshot](screenshots/3.png)
 ![Screenshot](screenshots/4.png)
