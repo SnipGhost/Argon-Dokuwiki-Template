@@ -352,7 +352,7 @@ form {
 
 fieldset {
     padding: .7em 1em 0;
-    padding: .7rem 1rem; /* for those browsers understanding :last-child */
+    padding: .7rem 0.8rem; /* for those browsers understanding :last-child */
     border: 1px solid #999;
 }
 fieldset > :last-child {
