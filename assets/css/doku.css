@@ -24933,6 +24933,7 @@ textarea {
 }
 .dokuwiki div.ui-admin ul li a {
   vertical-align: middle;
+  align-items: center;
 }
 .dokuwiki div.ui-admin ul li a span.icon svg {
   margin-right: 0.8rem;
