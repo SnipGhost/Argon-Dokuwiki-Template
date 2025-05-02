@@ -25093,8 +25093,7 @@ textarea {
   fill: var(--text-color);
 }
 .mobile-navbar li .nav-link {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem;
   margin-right: 1rem;
 }
 .mobile-navbar .search-form {
