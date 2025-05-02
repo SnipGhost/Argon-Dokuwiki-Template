@@ -83,7 +83,8 @@ $showIcon = tpl_getConf('showIcon');
 				<?php }?>
 
 
-				<div class="d-none d-sm-block ml-auto">
+				<!-- Navbar user-menu + search -->
+				<div class="d-none d-sm-none d-md-block ml-auto">
 					<ul class="navbar-nav ct-navbar-nav flex-row align-items-center">
 
 						<?php
@@ -134,17 +135,19 @@ $showIcon = tpl_getConf('showIcon');
 					<!-- left sidebar -->
 					<div class="col-12 col-md-3 col-xl-2 ct-sidebar">
 						<nav class="collapse ct-links small-top-padding" id="ct-docs-nav">
+							
+							<div class="mx-auto" style="max-width: fit-content;">
 							<?php
 							if (!empty($_SERVER['REMOTE_USER'])) {
-								echo '<li class="nav-item nav-link"> ';
+								echo '<div id="user-info" class="nav-item nav-link"> ';
 								tpl_userinfo();
-								echo '</li>';
+								echo '</div>';
 							}
 							?>
 							
-							<!-- TODO(zhilina): mobile-navbar -->
-							<div class="container d-block d-sm-none">
-								<ul class="navbar-nav ct-navbar-nav flex-row align-items-center mobile-navbar">
+							<!-- mobile-navbar user-menu -->
+							<div class="d-sm-block d-md-none">
+								<ul class="navbar-nav ct-navbar-nav flex-row align-items-center mobile-navbar mx-auto">
 									<?php
 									$menu_items = (new \dokuwiki\Menu\UserMenu())->getItems();
 									foreach($menu_items as $item) {
@@ -159,15 +162,16 @@ $showIcon = tpl_getConf('showIcon');
 									?>
 								</ul>
 							</div>
-							<div class="d-block d-sm-none mt-3 mb-3">
-								<ul class="navbar-nav ct-navbar-nav flex-row align-items-center">
-									<li class="nav-item">
-										<div class="search-form">
-											<?php tpl_searchform()?>
-										</div>
-									</li>
-								</ul>
+							<!-- mobile-navbar search -->
+							<div class="d-sm-block d-md-none mt-3 mb-3 mobile-navbar">
+								<div class="navbar-nav ct-navbar-nav flex-row align-items-center">
+									<div class="search-form">
+										<?php tpl_searchform()?>
+									</div>
+								</div>
 							</div>
+							</div>
+
 							<?php if ($showSidebar): ?>
 							<div id="dokuwiki__aside" class="ct-toc-item active">
 								<a class="ct-toc-link">
