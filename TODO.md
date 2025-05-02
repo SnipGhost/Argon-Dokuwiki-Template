@@ -7,6 +7,6 @@
 - [X] Fix breadcrumb for middle screen size
 - [X] Increase padding for mobile navbar icons
 - [X] Add custom logo & fix logo styles 
-- [ ] Display sidebar list in settings/admin
+- [X] Display sidebar list in settings/admin
 - [ ] Fix "scroll back to top button"
 - [ ] Add element for sectioning
