@@ -25287,4 +25287,8 @@ textarea {
   margin: auto;
 }
 
+a:visited {
+  fill: unset;
+}
+
 /*# sourceMappingURL=doku.css.map */
