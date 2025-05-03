@@ -25211,6 +25211,9 @@ textarea {
   border-radius: 0;
   padding: 1rem;
 }
+#dokuwiki__content #user__manager table th, #dokuwiki__content #user__manager table td {
+  border: 1px solid #e5e5e5;
+}
 
 .centeralign:has(#dw__login), .centeralign:has(#dw__resendpwd) {
   display: flex;
