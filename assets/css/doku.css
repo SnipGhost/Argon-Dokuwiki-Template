@@ -25261,4 +25261,19 @@ textarea {
   text-decoration: none !important;
 }
 
+#extension__manager .doku_form {
+  height: 200px;
+  width: 100% !important;
+}
+#extension__manager .doku_form .block {
+  text-align: center;
+  width: 100%;
+}
+#extension__manager .doku_form .block input {
+  width: 30% !important;
+}
+#extension__manager .doku_form button {
+  margin: auto;
+}
+
 /*# sourceMappingURL=doku.css.map */

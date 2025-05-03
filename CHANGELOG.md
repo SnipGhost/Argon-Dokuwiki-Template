@@ -1,6 +1,7 @@
 # TODO-list
 
 - [ ] Move direct changes from css to scss
+- [X] Hotfix extension manager manual install page
 
 ## Changelog
 
