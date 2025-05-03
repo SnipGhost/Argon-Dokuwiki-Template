@@ -8,5 +8,6 @@
 - [X] Increase padding for mobile navbar icons
 - [X] Add custom logo & fix logo styles 
 - [X] Display sidebar list in settings/admin
-- [ ] Fix "scroll back to top button"
+- [X] Fix "scroll back to top button"
 - [ ] Add element for sectioning
+- [ ] Move direct changes from css to scss

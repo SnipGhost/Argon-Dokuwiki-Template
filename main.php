@@ -42,6 +42,8 @@ $showIcon = tpl_getConf('showIcon');
 		<!-- CSS Files -->
 		<link href="<?php echo tpl_basedir(); ?>assets/css/doku.css" rel="stylesheet" />
 
+		<script src="<?php echo tpl_basedir(); ?>assets/js/floating-top-button.js" defer></script>
+
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 		<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 	</head>
@@ -257,15 +259,38 @@ $showIcon = tpl_getConf('showIcon');
                             <?php
                             $menu_items = (new \dokuwiki\Menu\PageMenu())->getItems();
                             foreach($menu_items as $item) {
-                                echo '<li class="'.$item->getType().'">'
-                                    .'<a class="page-menu__link '.$item->getLinkAttributes('')['class'].'" href="'.$item->getLink().'" title="'.$item->getTitle().'">'
+								if ($item->getType() == "top") {
+									$add_wrapper_top = '<div id="floating-top-button" class="floating-top-button">';
+									$add_wrapper_cls = 'btn ';
+									$add_wrapper_end = '</div>';
+								} else {
+									$add_wrapper_top = '';
+									$add_wrapper_cls = '';
+									$add_wrapper_end = '';
+								}
+                                echo $add_wrapper_top.'<li class="'.$item->getType().'">'
+                                    .'<a class="page-menu__link '.$add_wrapper_cls.$item->getLinkAttributes('')['class'].'" href="'.$item->getLink().'" title="'.$item->getTitle().'">'
                                     .'<i class="">'.inlineSVG($item->getSvg()).'</i>'
                                     . '<span class="a11y">'.$item->getLabel().'</span>'
-                                    . '</a></li>';
+                                    . '</a></li>'.$add_wrapper_end;
                             }
                             ?>
 						</div>
 						<?php endif;?>
+
+						<!-- Floating Top Button -->
+                        <!-- <div class="floating-top-button">
+                            <?php
+                            $menu_items = (new \dokuwiki\Menu\PageMenu())->getItems();
+                            foreach($menu_items as $item) {
+                                if ($item->getType() != "top") continue;
+                                echo '<a class="btn" href="'.$item->getLink().'" title="'.$item->getTitle().'">'
+                                    .'<i class="">'.inlineSVG($item->getSvg()).'</i>'
+                                    . '<span class="a11y">'.$item->getLabel().'</span>'
+                                    . '</a>';
+                            }
+                            ?>
+                        </div> -->
 
 					
 						<!-- Wiki Contents -->
