@@ -1,6 +1,6 @@
 # TODO-list
 
-- [X] Init changes for halgebra
+- [X] Init changes for halgebra (colors, fonts, buttons)
 - [X] Fix navbar icons position (vertical align)
 - [X] Fix admin page icons/text vertical align
 - [X] Fix navbar for middle screen size & center blocks
@@ -9,5 +9,6 @@
 - [X] Add custom logo & fix logo styles 
 - [X] Display sidebar list in settings/admin
 - [X] Fix "scroll back to top button"
-- [ ] Add element for sectioning
+- [X] Add element for sectioning
+- [X] Fix authorization & password-resend forms
 - [ ] Move direct changes from css to scss
