@@ -1,5 +1,12 @@
 # TODO-list
 
+- [X] Add sidebar-page link
+- [X] Add profile link to sidebar
+- [ ] Move direct changes from css to scss
+
+## Changelog
+
+### v1.3.1h "Pythagoras"
 - [X] Init changes for halgebra (colors, fonts, buttons)
 - [X] Fix navbar icons position (vertical align)
 - [X] Fix admin page icons/text vertical align
@@ -11,4 +18,3 @@
 - [X] Fix "scroll back to top button"
 - [X] Add element for sectioning
 - [X] Fix authorization & password-resend forms
-- [ ] Move direct changes from css to scss
