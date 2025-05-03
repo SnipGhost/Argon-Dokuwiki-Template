@@ -25193,7 +25193,7 @@ textarea {
 #dokuwiki__content table thead td {
   background-color: var(--lighter);
 }
-#dokuwiki__content table th, #dokuwiki__content table thead th, #dokuwiki__content table td {
+#dokuwiki__content table th, #dokuwiki__content :not(#user__manager) table thead th, #dokuwiki__content :not(#user__manager) table td {
   border: none;
   padding: 0.5rem;
 }
@@ -25201,11 +25201,17 @@ textarea {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.centeralign {
+#dokuwiki__content #user__manager table {
+  display: block;
+  table-layout: initial;
+  border-collapse: collapse;
+}
+
+.centeralign:has(#dw__login), .centeralign:has(#dw__resendpwd) {
   display: flex;
   justify-content: center;
 }
-.centeralign #dw__login, .centeralign #dw__resendpwd {
+#dw__login, #dw__resendpwd {
   width: fit-content;
   max-width: 500px;
   min-width: 250px;
@@ -25220,28 +25226,28 @@ textarea {
   margin-right: auto;
   text-align: center;
 }
-.centeralign #dw__login .no p {
+#dw__login .no p {
   margin-bottom: 0;
 }
-.centeralign #dw__login .no label {
+#dw__login .no label {
   display: flex;
   align-items: center;
   width: 100%;
 }
-.centeralign #dw__login .no label.block span {
+#dw__login .no label.block span {
   min-width: 4.5rem;
   margin-right: 1rem;
 }
-.centeralign #dw__login .no label.simple span {
+#dw__login .no label.simple span {
   padding-left: 0.5rem;
 }
-.centeralign #dw__login .no label.simple input {
+#dw__login .no label.simple input {
   width: 4.5rem;
   margin-right: 1rem;
   margin-top: 0 !important;
   height: 1.15rem;
 }
-.centeralign #dw__login .no button {
+#dw__login .no button {
   margin-left: auto;
   margin-right: auto;
 }

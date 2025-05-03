@@ -2,6 +2,7 @@
 
 - [ ] Move direct changes from css to scss
 - [X] Hotfix extension manager manual install page
+- [X] Hotfix user manager tables corruptions
 
 ## Changelog
 
