@@ -2,6 +2,6 @@ base     argon-halgebra
 author   Mikhail Kucherenko
 email    makucherenko@list.ru
 date     2025-05-03
-name     Argon Template halgebra fork
-desc     Argon (fork) - clean, responsive, modern template for Dokuwiki.
+name     Argon Template (halgebra fork)
+desc     Argon Template for halgebra.math.msu.su site
 url      https://github.com/SnipGhost/Argon-Dokuwiki-Template
