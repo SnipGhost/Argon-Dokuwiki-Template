@@ -25201,10 +25201,15 @@ textarea {
   border-bottom: 1px solid #e5e5e5;
 }
 
-#dokuwiki__content #user__manager table {
+#dokuwiki__content #user__manager table, #dokuwiki__content #dw__configform table, #dokuwiki__content #plugin__styling table, #dokuwiki__content #acl_manager table, #dokuwiki__content #plugin__logviewer table {
   display: block;
   table-layout: initial;
   border-collapse: collapse;
+}
+#dokuwiki__content #dw__configform table th, #dokuwiki__content #dw__configform table td, #dokuwiki__content #plugin__styling table th, #dokuwiki__content #plugin__styling table td, #dokuwiki__content #acl_manager table th, #dokuwiki__content #acl_manager table td, #dokuwiki__content #plugin__logviewer table th, #dokuwiki__content #plugin__logviewer table td {
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  padding: 1rem;
 }
 
 .centeralign:has(#dw__login), .centeralign:has(#dw__resendpwd) {
