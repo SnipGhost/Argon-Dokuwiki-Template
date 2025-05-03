@@ -1,10 +1,12 @@
 # TODO-list
 
-- [X] Add sidebar-page link
-- [X] Add profile link to sidebar
 - [ ] Move direct changes from css to scss
 
 ## Changelog
+
+### v1.3.1h-hotfix "Pythagoras-hotfix"
+- [X] Add sidebar-page link
+- [X] Add profile link to sidebar
 
 ### v1.3.1h "Pythagoras"
 - [X] Init changes for halgebra (colors, fonts, buttons)
