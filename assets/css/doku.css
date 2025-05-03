@@ -51,6 +51,8 @@ Coded by www.creative-tim.com
   --lighter: #edecec;
   --primary: #990000;
   --secondary: #f6f5f4;
+  --hover-color: #ececec;
+  --accent: #ffcc99;
   --success: #2dce89;
   --info: #11cdef;
   --warning: #fb6340;
@@ -3007,13 +3009,13 @@ fieldset:disabled a.toggleAssistant {
 
 .btn-white:hover {
   color: #212529;
-  background-color: #ececec;
+  background-color: var(--hover-color);
   border-color: #e6e6e6;
 }
 
 .btn-white:focus, .btn-white.focus {
   color: #212529;
-  background-color: #ececec;
+  background-color: var(--hover-color);
   border-color: #e6e6e6;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(222, 222, 223, 0.5);
 }
@@ -3043,13 +3045,13 @@ fieldset:disabled a.toggleAssistant {
 
 .btn-neutral:hover, .qq-upload-button:hover, .doku_form .no button:hover, button:hover {
   color: #212529;
-  background-color: #ececec;
+  background-color: var(--hover-color);
   border-color: #e6e6e6;
 }
 
 .btn-neutral:focus, .qq-upload-button:focus, .doku_form .no button:focus, button:focus, .btn-neutral.focus, .focus.qq-upload-button, .doku_form .no button.focus, button.focus {
   color: #212529;
-  background-color: #ececec;
+  background-color: var(--hover-color);
   border-color: #e6e6e6;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(222, 222, 223, 0.5);
 }
@@ -25153,15 +25155,42 @@ textarea {
 .floating-top-button .btn {
   background-color: white;
   fill: var(--primary);
-  border-color: #c9cfd4;
+  border-color: #e5e5e5;
   padding: 0.75rem;
   font-size: 0.8rem;
 }
 .floating-top-button .btn:hover {
-  background-color: #ececec;
+  background-color: var(--hover-color);
 }
 .floating-top-button .btn i {
   margin: 0;
+}
+
+#dokuwiki__content table {
+  display: table;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+#dokuwiki__content table th:first-child {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+#dokuwiki__content table th:last-child {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+#dokuwiki__content table th {
+  background-color: var(--accent);
+}
+#dokuwiki__content table thead td {
+  background-color: var(--lighter);
+}
+#dokuwiki__content table th, #dokuwiki__content table thead th, #dokuwiki__content table td {
+  border: none;
+  padding: 0.5rem;
+}
+#dokuwiki__content table td {
+  border-bottom: 1px solid #e5e5e5;
 }
 
 /*# sourceMappingURL=doku.css.map */
