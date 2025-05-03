@@ -25193,4 +25193,56 @@ textarea {
   border-bottom: 1px solid #e5e5e5;
 }
 
+.centeralign {
+  display: flex;
+  justify-content: center;
+}
+.centeralign #dw__login, .centeralign #dw__resendpwd {
+  width: fit-content;
+  max-width: 500px;
+  min-width: 250px;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e5e5 !important;
+  background-color: var(--secondary);
+  box-shadow: none !important;
+  padding: 1rem;
+}
+#dw__resendpwd .no fieldset label, #dw__resendpwd .no fieldset button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.centeralign #dw__login .no p {
+  margin-bottom: 0;
+}
+.centeralign #dw__login .no label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.centeralign #dw__login .no label.block span {
+  min-width: 4.5rem;
+  margin-right: 1rem;
+}
+.centeralign #dw__login .no label.simple span {
+  padding-left: 0.5rem;
+}
+.centeralign #dw__login .no label.simple input {
+  width: 4.5rem;
+  margin-right: 1rem;
+  margin-top: 0 !important;
+  height: 1.15rem;
+}
+.centeralign #dw__login .no button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.dokuwiki fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  align-items: center;
+}
+
 /*# sourceMappingURL=doku.css.map */
