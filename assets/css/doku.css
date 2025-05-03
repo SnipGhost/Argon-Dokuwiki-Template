@@ -6096,6 +6096,7 @@ input[type=button].btn-block {
   padding: 0.75rem 0.8rem;
   margin-bottom: 0.8rem;
   list-style: none;
+  background-color: #f6f5f4;
   background-color: var(--secondary);
   border-radius: 0.25rem;
   border: 0.0625rem solid rgba(0, 0, 0, 0.05)
@@ -7946,6 +7947,7 @@ a.close.disabled {
 }
 
 .bg-primary {
+  background-color: #990000 !important;
   background-color: var(--primary) !important;
 }
 
@@ -25047,6 +25049,7 @@ textarea {
 }
 
 .footer-card {
+  background-color: #f6f5f4;
   background-color: var(--secondary);
   text-align: center;
 }
