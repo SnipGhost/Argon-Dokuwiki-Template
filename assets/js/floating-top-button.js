@@ -1,6 +1,6 @@
 // After document loading
 var scrollTop = document.getElementById("floating-top-button");
-var scrollTopHideDelay = 1500;
+var scrollTopHideDelay = 2000;
 var scrollTopHeight = 100;
 
 let isScrolling;
