@@ -140,9 +140,9 @@ $showIcon = tpl_getConf('showIcon');
 							<div class="mx-auto" style="max-width: fit-content;">
 							<?php
 							if (!empty($_SERVER['REMOTE_USER'])) {
-								echo '<div id="user-info" class="nav-item nav-link"> ';
+								echo '<a href="'.wl('', 'do=profile').'" id="user-info" class="nav-item nav-link"> ';
 								tpl_userinfo();
-								echo '</div>';
+								echo '</a>';
 							}
 							?>
 							
@@ -175,10 +175,10 @@ $showIcon = tpl_getConf('showIcon');
 
 							<?php if ($showSidebar): ?>
 							<div id="dokuwiki__aside" class="ct-toc-item active">
-								<a class="ct-toc-link">
-									<?php echo "Содержание" ?>
-								</a>
 								<div class="leftsidebar">
+									<div class="ct-toc-link">
+										<?php tpl_link(wl('sidebar', '', true), "Содержание", 'class="wikilink1"'); ?>
+									</div>
 									<?php tpl_includeFile('sidebarheader.html')?>
 									<?php tpl_include_page($conf['sidebar'], 1, 1)?>
 									<?php tpl_includeFile('sidebarfooter.html')?>

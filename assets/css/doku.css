@@ -24618,8 +24618,8 @@ pre > code.highlight {
 }
 
 .ct-toc-link:hover {
-  color: rgba(0, 0, 0, 0.85);
-  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6) !important;
+  text-decoration: none !important;
 }
 
 .ct-toc-item.active {
@@ -25091,6 +25091,11 @@ textarea {
 
 #user-info {
   padding: 0.25rem 1.5rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+#user-info:hover {
+  color: var(--primary);
 }
 @media (max-width: 768px) {
   #user-info {
@@ -25246,6 +25251,14 @@ textarea {
   flex-wrap: wrap;
   width: fit-content;
   align-items: center;
+}
+
+.ct-toc-link a.wikilink1 {
+  color: #0d2b3e;
+}
+.ct-toc-link a.wikilink1:hover {
+  color: rgba(0, 0, 0, 0.6) !important;
+  text-decoration: none !important;
 }
 
 /*# sourceMappingURL=doku.css.map */
