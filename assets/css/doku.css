@@ -6707,7 +6707,7 @@ a.badge-darker:focus, a.badge-darker.focus {
   }
 }
 .media {
-  display: flex;
+  /* display: flex; */
   align-items: flex-start;
 }
 
