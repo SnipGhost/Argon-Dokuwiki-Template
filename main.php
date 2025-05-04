@@ -38,11 +38,12 @@ $showIcon = tpl_getConf('showIcon');
 		but I had some issues with styling (and import order) there, so I'm doing those imports here. 
 		-->
 		<!--     Fonts and icons  -->
-		<link href="<?php echo tpl_basedir(); ?>assets/css/fonts.css" rel="stylesheet">
+		<?php echo tpl_asset_link('fonts.css', 'css'); ?>
 		<!-- CSS Files -->
-		<link href="<?php echo tpl_basedir(); ?>assets/css/doku.css" rel="stylesheet" />
+		<?php echo tpl_asset_link('doku.css', 'css', '2h'); ?>
 
-		<script src="<?php echo tpl_basedir(); ?>assets/js/floating-top-button.js" defer></script>
+		<!-- JS for scroll to top button -->
+		<?php echo tpl_asset_link('floating-top-button.js', 'js', '2h', 'defer'); ?>
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 		<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>

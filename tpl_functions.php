@@ -140,3 +140,25 @@ if (!function_exists('tpl_classes')) {
         return join(' ', $classes);
     }
 }
+
+function tpl_asset_link($name, $type='css', $version='', $extra='') {
+    $link = tpl_basedir().'assets/'.$type.'/'.$name;
+    if (!empty($version)) {
+        $link = $link.'?ver='.$version;
+    }
+    if (substr($extra, 0, 1) != ' ') {
+        $extra = ' '.$extra;
+    }
+    switch ($type) {
+        case 'css':
+            $obj = '<link href="'.$link.'" rel="stylesheet"'.$extra.' />';
+            break;
+        case 'js':
+            $obj = '<script src="'.$link.'"'.$extra.'></script>';
+            break;
+        default:
+            error_log("tpl_asset_link unimplemented type");
+            $obj = '<link href="'.$link.'" />';
+    }
+    return $obj;
+}
