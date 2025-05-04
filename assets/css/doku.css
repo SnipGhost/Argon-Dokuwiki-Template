@@ -25193,7 +25193,7 @@ textarea {
 #dokuwiki__content table thead td {
   background-color: var(--lighter);
 }
-#dokuwiki__content table th, #dokuwiki__content :not(#user__manager) table thead th, #dokuwiki__content :not(#user__manager) table td {
+#dokuwiki__content table th, #dokuwiki__content table thead th, #dokuwiki__content table td {
   border: none;
   padding: 0.5rem;
 }

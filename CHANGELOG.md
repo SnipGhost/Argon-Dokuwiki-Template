@@ -5,6 +5,7 @@
 - [X] Hotfix user manager tables corruptions
 - [X] Hotfix other admin pages corruptions
 - [X] Try to hotfix wrong links-icon fill after visiting with Chrome
+- [X] Fix border-bottom for common tables
 
 ## Changelog
 
