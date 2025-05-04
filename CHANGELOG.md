@@ -1,13 +1,16 @@
 # TODO-list
 
 - [ ] Move direct changes from css to scss
+
+## Changelog
+
+### v1.3.2h "Thales"
 - [X] Hotfix extension manager manual install page
 - [X] Hotfix user manager tables corruptions
 - [X] Hotfix other admin pages corruptions
 - [X] Try to hotfix wrong links-icon fill after visiting with Chrome
 - [X] Fix border-bottom for common tables
-
-## Changelog
+- [X] Add versioning for asset files
 
 ### v1.3.1h-hotfix "Pythagoras-hotfix"
 - [X] Add sidebar-page link
