@@ -25294,4 +25294,15 @@ a:visited {
   fill: unset;
 }
 
+.plugin_translation span {
+  display: block;
+  padding: 0.25rem 1.5rem;
+}
+.plugin_translation ul {
+  list-style-type: none;
+}
+.plugin_translation ul li {
+  padding: 0.25rem 0;
+}
+
 /*# sourceMappingURL=doku.css.map */

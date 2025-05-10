@@ -225,6 +225,11 @@ $showIcon = tpl_getConf('showIcon');
 								</ul>
 							</div> -->
 
+							<?php
+							$translation = plugin_load('helper','translation');
+							if ($translation) echo $translation->showTranslations();
+							?>
+
 						</nav>
 					</div>
 
