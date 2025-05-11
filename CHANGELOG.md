@@ -1,6 +1,7 @@
 # TODO-list
 
 - [ ] Move direct changes from css to scss
+- [X] Fix perfect-scrollbar issue on Windows
 
 ## Changelog
 
