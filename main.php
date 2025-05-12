@@ -178,7 +178,7 @@ $showIcon = tpl_getConf('showIcon');
 							<div id="dokuwiki__aside" class="ct-toc-item active">
 								<div class="leftsidebar">
 									<div class="ct-toc-link">
-										<?php tpl_link(wl('sidebar', '', true), "Содержание", 'class="wikilink1"'); ?>
+										<?php tpl_link(wl('sidebar', '', true), $lang['toc'], 'class="wikilink1"'); ?>
 									</div>
 									<?php tpl_includeFile('sidebarheader.html')?>
 									<?php tpl_include_page($conf['sidebar'], 1, 1)?>

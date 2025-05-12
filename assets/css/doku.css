@@ -19378,10 +19378,6 @@ textarea[resize=horizontal] {
     max-width: 1160px;
   }
 }
-.icon {
-  width: 3rem;
-  height: 3rem;
-}
 
 .icon i, .icon svg {
   font-size: 2.25rem;
@@ -24768,7 +24764,6 @@ select {
   border-radius: 0.3em;
 }
 #dokuwiki__content img.icon {
-  width: 0.8rem;
   height: 0.8rem;
 }
 #dokuwiki__content .table-responsive, #dokuwiki__content table {
