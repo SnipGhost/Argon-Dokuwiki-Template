@@ -1,6 +1,8 @@
 # TODO-list
 
 - [ ] Move direct changes from css to scss
+- [ ] Make wrapper-function for `$translation->buildTransID(...)`
+- [X] Adopt to translation plugin
 - [X] Fix perfect-scrollbar issue on Windows
 
 ## Changelog
