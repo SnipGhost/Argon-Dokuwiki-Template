@@ -25196,7 +25196,7 @@ textarea {
   border-bottom: 1px solid #e5e5e5;
 }
 
-#dokuwiki__content #user__manager table, #dokuwiki__content #dw__configform table, #dokuwiki__content #plugin__styling table, #dokuwiki__content #acl_manager table, #dokuwiki__content #plugin__logviewer table {
+#dokuwiki__content #user__manager table, #dokuwiki__content #dw__configform table, #dokuwiki__content #plugin__styling table, #dokuwiki__content #acl_manager table, #dokuwiki__content #plugin__logviewer table, table#outdated_translations {
   display: block;
   table-layout: initial;
   border-collapse: collapse;
@@ -25208,6 +25208,9 @@ textarea {
 }
 #dokuwiki__content #user__manager table th, #dokuwiki__content #user__manager table td {
   border: 1px solid #e5e5e5;
+}
+table#outdated_translations .missing a {
+  color: #000;
 }
 
 .centeralign:has(#dw__login), .centeralign:has(#dw__resendpwd) {
@@ -25307,6 +25310,10 @@ a:visited {
 .plugin_translation a:hover {
   color: #252525;
   text-decoration: none;
+}
+
+.ui-admin .icon {
+  height: 3rem;
 }
 
 /*# sourceMappingURL=doku.css.map */
