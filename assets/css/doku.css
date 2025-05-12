@@ -25302,10 +25302,10 @@ a:visited {
   list-style-type: none;
 }
 .plugin_translation ul li {
-  padding: 0.25rem 0;
+  padding: 0.25rem;
 }
 .plugin_translation a {
-  color: var(--text-color);
+  color: #555555;
 }
 .plugin_translation a:hover {
   color: #252525;
