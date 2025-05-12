@@ -25292,12 +25292,21 @@ a:visited {
 .plugin_translation span {
   display: block;
   padding: 0.25rem 1.5rem;
+  color: #0d2b3e;
+  font-weight: 600;
 }
 .plugin_translation ul {
   list-style-type: none;
 }
 .plugin_translation ul li {
   padding: 0.25rem 0;
+}
+.plugin_translation a {
+  color: var(--text-color);
+}
+.plugin_translation a:hover {
+  color: #252525;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=doku.css.map */
