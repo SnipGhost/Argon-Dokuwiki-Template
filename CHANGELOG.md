@@ -1,6 +1,8 @@
 # TODO-list
 
 - [ ] Move direct changes from css to scss
+- [X] Adopt to translation plugin
+- [ ] Make wrapper-function for `$translation->buildTransID(...)`
 
 ## Changelog
 
