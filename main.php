@@ -132,6 +132,7 @@ $showIcon = tpl_getConf('showIcon');
 					ob_start();
 					tpl_content(false);
 					$buffer = ob_get_clean();
+					$translation = plugin_load('helper','translation');
 					?>
 
 					<!-- left sidebar -->
@@ -178,7 +179,15 @@ $showIcon = tpl_getConf('showIcon');
 							<div id="dokuwiki__aside" class="ct-toc-item active">
 								<div class="leftsidebar">
 									<div class="ct-toc-link">
-										<?php tpl_link(wl('sidebar', '', true), $lang['toc'], 'class="wikilink1"'); ?>
+										<?php
+											if ($translation) {
+												$link = $translation->buildTransID($conf['lang'], $conf['sidebar']);
+												$sidebar_link = ltrim($link[0], ':');
+											} else {
+												$sidebar_link = $conf['sidebar'];
+											}
+											tpl_link(wl($sidebar_link, '', true), $lang['toc'], 'class="wikilink1"');
+										?>
 									</div>
 									<?php tpl_includeFile('sidebarheader.html')?>
 									<?php tpl_include_page($conf['sidebar'], 1, 1)?>
@@ -226,7 +235,6 @@ $showIcon = tpl_getConf('showIcon');
 							</div> -->
 
 							<?php
-							$translation = plugin_load('helper','translation');
 							if ($translation) echo $translation->showTranslations();
 							?>
 
