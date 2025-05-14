@@ -5,14 +5,15 @@
 ## Changelog
 
 ### v1.3.3h "Eudoxus"
+- [X] Fix perfect-scrollbar issue on Windows (removed)
 - [X] Adopt to translation plugin
-- [X] Fix perfect-scrollbar issue on Windows
 - [X] Change page edit textarea font & color
 - [X] Make wrapper-function for `$translation->buildTransID(...)`
 - [X] Refactor main.php
 - [X] Add hideSiteTools template config option
 - [X] Fix template config russian translate
-- [ ] Change content font-size
+- [X] Change content font-size
+- [X] Change sidebar links color
 
 ### v1.3.2h "Thales"
 - [X] Hotfix extension manager manual install page

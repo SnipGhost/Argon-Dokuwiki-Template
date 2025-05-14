@@ -33,6 +33,7 @@ Coded by www.creative-tim.com
  */
 :root {
   --text-color: #3b2b2d;
+  --links-color: #555555;
   --dark-red: #402c2e;
   --blue: #5e72e4;
   --indigo: #5603ad;
@@ -92,7 +93,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: var(--text-color);
@@ -554,7 +555,7 @@ kbd {
   color: #fff;
   background-color: #212529;
   border-radius: 0.2rem;
-  box-shadow: inset 0 -0.0.8rem 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 -0.1rem 0 rgba(0, 0, 0, 0.25);
 }
 
 kbd kbd {
@@ -2369,7 +2370,7 @@ textarea.form-control, .doku_form .no textarea#qsearch__in, textarea {
   display: none;
   max-width: 100%;
   padding: 0.25rem 0.5rem;
-  margin-top: 0.0.8rem;
+  margin-top: 0.1rem;
   font-size: 0.875rem;
   line-height: 1.5;
   color: #fff;
@@ -2469,7 +2470,7 @@ textarea.form-control, .doku_form .no textarea#qsearch__in, textarea {
   display: none;
   max-width: 100%;
   padding: 0.25rem 0.5rem;
-  margin-top: 0.0.8rem;
+  margin-top: 0.1rem;
   font-size: 0.875rem;
   line-height: 1.5;
   color: #fff;
@@ -3582,7 +3583,7 @@ input[type=button].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   color: var(--text-color);
   text-align: left;
   list-style: none;
@@ -5209,7 +5210,7 @@ input[type=button].btn-block {
   background-color: var(--primary);
   border: 0;
   border-radius: 0.8rem;
-  box-shadow: 0 0.0.8rem 0.25rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
@@ -5240,7 +5241,7 @@ input[type=button].btn-block {
   background-color: var(--primary);
   border: 0;
   border-radius: 0.8rem;
-  box-shadow: 0 0.0.8rem 0.25rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
@@ -5274,7 +5275,7 @@ input[type=button].btn-block {
   background-color: var(--primary);
   border: 0;
   border-radius: 0.8rem;
-  box-shadow: 0 0.0.8rem 0.25rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
@@ -6672,7 +6673,7 @@ a.badge-darker:focus, a.badge-darker.focus {
   font-size: 0.75rem;
   background-color: var(--lighter);
   border-radius: 0.25rem;
-  box-shadow: inset 0 0.0.8rem 0.0.8rem rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
 .progress-bar {
@@ -6694,7 +6695,7 @@ a.badge-darker:focus, a.badge-darker.focus {
 }
 .progress-bar-striped {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-size: 0.8rem 0.8rem;
+  background-size: 0.875rem 0.875rem;
 }
 
 .progress-bar-animated {
@@ -7674,7 +7675,7 @@ a.close.disabled {
 .popover-header {
   padding: 0.75rem 0.75rem;
   margin-bottom: 0;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   color: var(--dark-red);
   background-color: #fff;
   border-bottom: 1px solid #f2f2f2;
@@ -18237,7 +18238,7 @@ a.text-lighter:hover, a.text-lighter:focus {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   border-radius: 50%;
   height: 48px;
   width: 48px;
@@ -18885,7 +18886,7 @@ a.btn-icon-only {
 }
 
 .profile-page .card-profile .card-profile-stats > div .heading {
-  font-size: 1.0.8rem;
+  font-size: 1rem;
   font-weight: bold;
   display: block;
 }
@@ -19115,7 +19116,7 @@ a.btn-icon-only {
 .dropdown-menu .dropdown-item > i,
 .dropdown-menu .dropdown-item > svg {
   margin-right: 0.8rem;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   vertical-align: -17%;
 }
 
@@ -19306,7 +19307,7 @@ textarea[resize=horizontal] {
 }
 
 .form-control-lg {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 
 .has-success,
@@ -19602,7 +19603,7 @@ textarea[resize=horizontal] {
   height: 3rem;
   border-radius: 50%;
   vertical-align: top;
-  margin: -0.0.8rem 1.2rem 0 -0.2rem;
+  margin: -0.1rem 1.2rem 0 -0.2rem;
 }
 
 .list-group-content {
@@ -19619,7 +19620,7 @@ textarea[resize=horizontal] {
 }
 
 .list-group-heading {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   color: var(--dark-red);
 }
 
@@ -19963,7 +19964,7 @@ textarea[resize=horizontal] {
 }
 
 .nav-pills-circle .nav-link-icon i, .nav-pills-circle .nav-link-icon svg {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 
 .nav-wrapper {
@@ -20047,7 +20048,7 @@ textarea[resize=horizontal] {
   .navbar-nav .nav-link-icon {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     border-radius: 0.25rem;
   }
 
@@ -21340,7 +21341,7 @@ textarea[resize=horizontal] {
 }
 
 .section-components .badge {
-  margin-right: 0.0.8rem;
+  margin-right: 0.1rem;
 }
 
 .section-components .modal-footer .btn, .section-components .modal-footer #dw__login button, #dw__login .section-components .modal-footer button, .section-components .modal-footer .qq-upload-button, .section-components .modal-footer .toggleAssistant, .section-components .modal-footer #tool__bar button, #tool__bar .section-components .modal-footer button, .section-components .modal-footer #dokuwiki__content .editButtons button, #dokuwiki__content .editButtons .section-components .modal-footer button, .section-components .modal-footer #dokuwiki__content #page__revisions button, #dokuwiki__content #page__revisions .section-components .modal-footer button, .section-components .modal-footer #dokuwiki__content .secedit button, #dokuwiki__content .secedit .section-components .modal-footer button, .section-components .modal-footer button {
@@ -21555,7 +21556,7 @@ textarea[resize=horizontal] {
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.7;
 }
@@ -23811,7 +23812,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .docs h6 {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 
@@ -24523,7 +24524,7 @@ pre > code.highlight {
 
 .toc-entry {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 
 .toc-entry a {
@@ -24643,6 +24644,7 @@ pre > code.highlight {
   padding: 0.25rem 1.5rem;
   font-size: 84%;
   color: #555555;
+  color: var(--links-color);
 }
 
 .ct-sidebar .nav > li > a:hover, .ct-sidebar .leftsidebar .leftsidebar ul > li > a:hover, .leftsidebar .leftsidebar .ct-sidebar ul > li > a:hover {
@@ -24977,7 +24979,7 @@ textarea {
 }
 .dokuwiki #dw__register fieldset label,
 #dw__profiledelete fieldset label {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: normal;
   width: 95%;
   text-align: left !important;
@@ -25028,15 +25030,18 @@ textarea {
   font-size: 0.84rem;
   padding: 0.25rem;
   color: #555555;
+  color: var(--links-color);
   font-weight: 400;
 }
 .leftsidebar a:link,
 .leftsidebar a:visited {
   text-decoration: none;
   color: #555555;
+  color: var(--links-color);
 }
 .leftsidebar a:hover {
-  color: #252525;
+  color: #990000;
+  color: var(--primary);
 }
 
 .ct-sidebar .nav > li > a, .ct-sidebar .leftsidebar .leftsidebar ul > li > a, .leftsidebar .leftsidebar .ct-sidebar ul > li > a {
@@ -25087,7 +25092,7 @@ textarea {
 #user-info {
   padding: 0.25rem 1.5rem;
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--links-color);
 }
 #user-info:hover {
   color: var(--primary);
@@ -25119,7 +25124,7 @@ textarea {
     width: 26px;
   }
   .header-title span {
-    font-size: 0.8rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -25160,7 +25165,7 @@ textarea {
   fill: var(--primary);
   border-color: #e5e5e5;
   padding: 0.75rem;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 .floating-top-button .btn:hover {
   background-color: var(--hover-color);
@@ -25269,7 +25274,9 @@ table#outdated_translations .missing a {
   color: #0d2b3e;
 }
 .ct-toc-link a.wikilink1:hover {
-  color: rgba(0, 0, 0, 0.6) !important;
+  /* color: rgba(0, 0, 0, 0.6) !important; */
+  color: #990000 !important;
+  color: var(--primary) !important;
   text-decoration: none !important;
 }
 
@@ -25297,18 +25304,22 @@ a:visited {
   padding: 0.25rem 1.5rem;
   color: #0d2b3e;
   font-weight: 600;
+  font-size: 0.84rem;
 }
 .plugin_translation ul {
   list-style-type: none;
 }
 .plugin_translation ul li {
   padding: 0.25rem;
+  font-size: 0.84rem;
 }
 .plugin_translation a {
   color: #555555;
+  color: var(--links-color);
 }
 .plugin_translation a:hover {
-  color: #252525;
+  color: #990000;
+  color: var(--primary);
   text-decoration: none;
 }
 
