@@ -25032,6 +25032,7 @@ textarea {
   color: #555555;
   color: var(--links-color);
   font-weight: 400;
+  margin: 0 0 0 1.2em;
 }
 .leftsidebar a:link,
 .leftsidebar a:visited {
@@ -25312,6 +25313,7 @@ a:visited {
 .plugin_translation ul li {
   padding: 0.25rem;
   font-size: 0.84rem;
+  margin: 0 0 0 1.2em;
 }
 .plugin_translation a {
   color: #555555;
@@ -25331,6 +25333,13 @@ form#dw__editform textarea {
   color: #3b2b2d;
   color: var(--text-color);
   font-family: 'Courier New', Courier, monospace;
+}
+
+#dokuwiki__content ul {
+  padding: 0 0 0 1.2em;
+}
+#dokuwiki__content li {
+  margin: 0 0 0 1.2em;
 }
 
 /*# sourceMappingURL=doku.css.map */

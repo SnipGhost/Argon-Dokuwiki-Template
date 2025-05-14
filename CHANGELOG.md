@@ -14,6 +14,7 @@
 - [X] Fix template config russian translate
 - [X] Change content font-size
 - [X] Change sidebar links color
+- [X] Reduce ul padding and li margin
 
 ### v1.3.2h "Thales"
 - [X] Hotfix extension manager manual install page
