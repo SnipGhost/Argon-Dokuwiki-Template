@@ -25316,4 +25316,10 @@ a:visited {
   height: 3rem;
 }
 
+form#dw__editform textarea {
+  color: #3b2b2d;
+  color: var(--text-color);
+  font-family: 'Courier New', Courier, monospace;
+}
+
 /*# sourceMappingURL=doku.css.map */
