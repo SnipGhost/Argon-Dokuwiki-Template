@@ -9,6 +9,10 @@
 - [X] Fix perfect-scrollbar issue on Windows
 - [X] Change page edit textarea font & color
 - [X] Make wrapper-function for `$translation->buildTransID(...)`
+- [X] Refactor main.php
+- [X] Add hideSiteTools template config option
+- [X] Fix template config russian translate
+- [ ] Change content font-size
 
 ### v1.3.2h "Thales"
 - [X] Hotfix extension manager manual install page
