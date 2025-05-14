@@ -66,15 +66,9 @@ $showIcon = tpl_getConf('showIcon');
 						// get logo either out of the template images folder or data/media folder
 						$logoSize = array();
 						$logo = tpl_getMediaFile(array(':wiki:logo.png', ':logo.png', 'images/logo.png', 'images/logo.svg', ':wiki:dokuwiki-128.png'), false, $logoSize);
-						if ($translation) {
-							$link = $translation->buildTransID($conf['lang'], $conf['start']);
-							$mainpage_link = ltrim($link[0], ':');
-						} else {
-							$mainpage_link = '';
-						}
 						// display logo and wiki title in a link to the home page
 						tpl_link(
-							wl($mainpage_link),
+							wl(tpl_get_translink($translation, $conf['lang'], $conf['start'])),
 							'<img class="logo" src="'.$logo.'" alt="" /><span>'.$conf['title'].'</span>',
 							'accesskey="h" title="[H]"'
 						);
@@ -86,7 +80,7 @@ $showIcon = tpl_getConf('showIcon');
 							<!-- <i class=""></i> -->
 						</span>
 						<span id="nav-link-main"
-							class="nav-link-inner--text"><?php tpl_link(wl(), $conf['title'], 'accesskey="h" title="[H]"')?></span>
+							class="nav-link-inner--text"><?php tpl_link(wl(tpl_get_translink($translation, $conf['lang'], $conf['start'])), $conf['title'], 'accesskey="h" title="[H]"')?></span>
 
 
 					</div>
@@ -187,12 +181,7 @@ $showIcon = tpl_getConf('showIcon');
 								<div class="leftsidebar">
 									<div class="ct-toc-link">
 										<?php
-											if ($translation) {
-												$link = $translation->buildTransID($conf['lang'], $conf['sidebar']);
-												$sidebar_link = ltrim($link[0], ':');
-											} else {
-												$sidebar_link = $conf['sidebar'];
-											}
+											$sidebar_link = tpl_get_translink($translation, $conf['lang'], $conf['sidebar']);
 											tpl_link(wl($sidebar_link, '', true), $lang['toc'], 'class="wikilink1"');
 										?>
 									</div>
@@ -241,9 +230,7 @@ $showIcon = tpl_getConf('showIcon');
 								</ul>
 							</div> -->
 
-							<?php
-							if ($translation) echo $translation->showTranslations();
-							?>
+							<?php if ($translation) echo $translation->showTranslations(); ?>
 
 						</nav>
 					</div>

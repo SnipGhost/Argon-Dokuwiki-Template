@@ -1,12 +1,14 @@
 # TODO-list
 
 - [ ] Move direct changes from css to scss
-- [ ] Make wrapper-function for `$translation->buildTransID(...)`
+
+## Changelog
+
+### v1.3.3h "Eudoxus"
 - [X] Adopt to translation plugin
 - [X] Fix perfect-scrollbar issue on Windows
 - [X] Change page edit textarea font & color
-
-## Changelog
+- [X] Make wrapper-function for `$translation->buildTransID(...)`
 
 ### v1.3.2h "Thales"
 - [X] Hotfix extension manager manual install page

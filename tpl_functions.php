@@ -162,3 +162,11 @@ function tpl_asset_link($name, $type='css', $version='', $extra='') {
     }
     return $obj;
 }
+
+function tpl_get_translink($translation, $lang, $page) {
+    if ($translation and $lang) {
+        $tbuild = $translation->buildTransID($lang, $page);
+        return ltrim($tbuild[0], ':');
+    }
+    return $page;
+}
